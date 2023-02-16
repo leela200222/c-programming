@@ -1,0 +1,17 @@
+include<stdio.h>
+void main()
+{
+	int i,x,y,k;
+	i=1;
+	printf("\nEnter x value:");
+	scanf("%d",&x);
+	printf("\nEnter y value:");
+	scanf("%d",&y);
+	k=x;
+	while(i<y)
+	{
+		x=k*x;
+		i++;
+	}
+	printf("\nYour answer: %d",x);
+}
